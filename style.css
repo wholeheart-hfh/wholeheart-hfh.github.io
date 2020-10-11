@@ -6,6 +6,11 @@
     font-family: 'Gotham';
 }
 
+@font-face {
+    font-family: 'Gotham';
+    src: url("./gotham.ttf");
+}
+
 .navbar-custom {
     background-color: var(--main--color)!important;
 }
@@ -30,5 +35,5 @@
 }
 
 .bg {
-    background-color: var(--main-color)!important;
+    background-image: url("./ribbon.png");
 }
