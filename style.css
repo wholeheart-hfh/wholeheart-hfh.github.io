@@ -1,0 +1,16 @@
+:root {
+    --main--color: #02403d
+}
+
+* {
+    font-family: 'Gotham';
+}
+
+.navbar-custom {
+    background-color: var(--main--color)!important;
+}
+
+.nav-link {
+    color: white!important;
+}
+
