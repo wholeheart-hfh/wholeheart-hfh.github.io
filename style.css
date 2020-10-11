@@ -28,3 +28,7 @@
 .mybtn:hover {
     background-color: var(--main-color);
 }
+
+.bg {
+    background-color: var(--main-color)!important;
+}
