@@ -84,3 +84,8 @@
     margin-left: 4em;
     text-align: left;
 }
+
+.mysticky {
+    bottom: 5em;
+    left: 5em;
+}
