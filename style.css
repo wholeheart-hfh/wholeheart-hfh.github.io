@@ -30,8 +30,9 @@
 }
 
 .main-text {
+    color: var(--main--color);
     padding: 5em;
-    width: 40em;
+    width: 45em;
 }
 
 .mybtn:hover {
