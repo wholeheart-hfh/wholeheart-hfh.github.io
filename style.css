@@ -2,6 +2,10 @@
     --main--color: #02403d;
 }
 
+.mybody {
+    background-color: var(--main--color);
+}
+
 * {
     font-family: 'Gotham';
 }

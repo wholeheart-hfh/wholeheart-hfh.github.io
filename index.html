@@ -6,10 +6,12 @@
         
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
 
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
         <link rel="stylesheet" href="./style.css">
     </head>
-    <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-custom">
+    <body class="mybody">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-custom" data-aos-duration="1000" data-aos="fade-down">
             <a class="navbar-brand" href="#">
                 <img src="./logo.png" width="100" alt="" loading="lazy">
             </a>
@@ -38,20 +40,19 @@
                 <button class="btn btn-outline-success my-2 my-sm-0" style="color: white; border-color: white;">Donate</button>
             </div>
         </nav>
-
-        <div class="main-content">
+        <div class="main-content" data-aos="fade-up" data-aos-duration="1000">
             <div class="main-text">
-                <h1 style="padding-top: 50px; padding-bottom: 50px;">
+                <h1 style="padding-top: 100px; padding-bottom: 50px;">
                     <b>Are you safe? We're here for you.</b>
                 </h1>
                 <h3>
                     Our app provides a list of resources for immediate help, self-care and support for you or the ones you love.
                 </h3>
                 <br />
-                <button class="btn btn-outline-success my-2 my-sm-0 mybtn" style="color: black; border-color: black; background-color: white; margin-top: 20px;">Download Now</button>
+                <button class="btn btn-light">Download Now</button>
             </div>
         </div>
-        <div class="second">
+        <div class="second" data-aos="fade-up" data-aos-duration="1000">
             <h1 style="padding-top: 50px; padding-bottom: 50px; color: white; text-align: center;">
                 <b>
                     You're a whole person.
@@ -61,7 +62,7 @@
             </h1>
             <div class="ribbon">
                 <div class="card-container">
-                    <div class="card ribbon-card">
+                    <div class="card ribbon-card" aos-data="fade-up">
                         <h1 style="color: #d3817a; font-size: 70px;">
                             <b>more than 12 million</b>
                         </h1>
@@ -99,14 +100,14 @@
             </div>
         </div>
 
-        <div class="second">
+        <div data-aos="fade-up" class="second"  data-aos-duration="1000">
             <div class="mycolumn">
                 <img src="./logo.png" height="100px">
                 <br />
                 Whole Heart is a federally designated 501(c)3 nonprofit that exists to provide resources and immediate access to support for victims of domestic abuse and empower them to leave their abusive situations. We do everything with our whole heart to make sure theirs is too.
                 <br />
                 <br />
-                <button class="btn btn-outline-success my-2 my-sm-0 mybtn" style="color: black; border-color: black; background-color: white; margin-top: 100px;">Safely Exit</button>
+                <button class="btn btn-light">Safely Exit</button>
             </div>
             <div class="mycolumn">
                 <b><h3>NAVIGATE</h3></b>
@@ -133,10 +134,10 @@
             </div>
             <div class="mycolumn">
                 <b><h3>CONNECT</h3></b>
-                <button class="btn btn-outline-success my-2 my-sm-0 mybtn" style="color: black; border-color: black; background-color: white; margin-top: 20px;">Talk to Someone</button>
+                <button class="btn btn-light">Talk to Someone</button>
                 <br />
                 <br />
-                <button class="btn btn-outline-success my-2 my-sm-0 mybtn" style="color: black; border-color: black; background-color: white; margin-top: 20px;">Donate</button>
+                <button class="btn btn-light">Donate</button>
                 <br />
                 <br />
                 <i class="fab fa-facebook" style="font-size: 30px; margin-right: 10px;"></i>
@@ -150,5 +151,12 @@
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    
+        <script src="./script.js"></script>
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
     </body>
 </html>
