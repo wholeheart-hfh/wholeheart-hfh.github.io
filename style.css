@@ -41,6 +41,7 @@
 .second {
     background-color: var(--main--color);
     align-items: center;
+    text-align: center;
 }
 
 .ribbon {
@@ -69,4 +70,12 @@
     height: 400px;
     width: 20%;
     margin: 20px;
+}
+
+.mycolumn {
+    color: white;
+    vertical-align: middle;
+    width: 25%;
+    display: inline-block;
+    margin-left: 100px;
 }
